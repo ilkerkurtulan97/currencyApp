@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exchange rates app</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+  </head>
+  <body>
+    <header>Exchange Rates App</header>
+
+    <div class="app">
+      <div class="container">
+        <div class="currency-box" id="currency-box-from">
+          <p>From:</p>
+        </div>
+
+        <div class="currency-box" id="currency-box-to">
+          <p>To :</p>
+        </div>
+        <div class="currency-amount">
+          <label>Amount</label>
+          <input type="text" value="1" name="amount" id="amountInput" />
+        </div>
+        <div class="currency-calculate" id="calculate-button">
+          <button id="calcButton">Calculate</button>
+        </div>
+
+        <div class="currency-result" id="currency-result"></div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./currency.js"></script>
+  </body>
+</html>

@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* OUR CSS */
+body {
+    /* background: #e6e6e6;*/
+    background: darkgray;
+}
+
+header {
+    text-align: center;
+    background: lightblue;
+    padding: 15px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.currency-box {
+    margin: 20px 0;
+}
+
+.currency-amount {
+    margin: 15px 0;
+}
+
+.currency-calculate {
+    margin: 15px 0;
+}
+
+.currency-calculate button {
+    width: 100%;
+    padding: 10px;
+    background: #93213C;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.currency-calculate button:hover{
+    transition: 0.7ms;
+    background: red;
+}
+
+.currecy-result {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#amountInput{
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+#calcButton{
+    border-radius: 10px;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+#currency-box-from{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 20px;
+
+}
+
+#currency-box-to {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.currency-amount{
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 100px;
+    font-size: 23px;
+}
+
+
+
+#currency-result{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 23px;
+}
+
+
+.app{
+    width: 500px;
+    height: 530px;
+    margin: auto;
+    margin-top: 100px;   /*margin-left: auto;*/
+    align-items: center;
+    background: #e2e2e2;
+    border: solid 3px darkred;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
